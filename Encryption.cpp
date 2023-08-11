@@ -1,18 +1,18 @@
-
-#include <string>
 #include <iostream>
+#include <string>
+
 using namespace std;
-int main()
-{
-	cout <<"enter the number of phrases to encrypt: "<<endl;
+
+int main() {
+
+	cout << "enter the number of phrases to encrypt: " << endl;
 	int num;
 	cin >> num;
-
-	for (int i = 0; i <= num; i++) {
+	cin.ignore();
+	for (int i = 0; i < num; i++) {
 
 		string str1;
 		getline(cin, str1);
-
 		//***********move three positions to the right in the ascii table if letter:*********
 
 		for (int i = 0; i < str1.length(); i++) {
@@ -65,7 +65,7 @@ int main()
 		//----------------------------------------------------------
 		//cout << endl;
 		//cout << "the complete output is = " << str3 << secondHalf << endl;
-		cout << str3 + secondHalf<<endl;
+		cout << str3 + secondHalf << endl;
 
 	}
 	return 0;

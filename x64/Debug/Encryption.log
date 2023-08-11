@@ -1,4 +1,4 @@
 ﻿  Encryption.cpp
-C:\Users\yuri.monteiro\source\repos\Encryption\Encryption.cpp(31,14): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\yuri.monteiro\source\repos\Encryption\Encryption.cpp(57,14): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\yuri.monteiro\source\repos\Encryption\Encryption.cpp(32,14): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\yuri.monteiro\source\repos\Encryption\Encryption.cpp(58,14): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
   Encryption.vcxproj -> C:\Users\yuri.monteiro\source\repos\Encryption\x64\Debug\Encryption.exe
